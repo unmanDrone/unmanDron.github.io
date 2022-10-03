@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>老师的笔记 | yoky</title>
+<meta name="description" content="我们都在不知不觉中品尝着人生百态">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico?v=1664756561828">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="http://localhost:4000/styles/main.css">
+
+
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="http://localhost:4000">yoky</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>老师的笔记</h1>
+            <p class="article-meta">
+              2022-09-02
+              
+                <a href="http://localhost:4000/tag/ZbarSDPpt/" class="badge success">
+                  大二课程
+                </a>
+              
+            </p>
+            
+              <img src="http://localhost:4000/post-images/lao-shi-de-bi-ji.jpg" alt="老师的笔记">
+            
+            <div class="post-content" v-pre>
+              <h1 id="1-java环境搭建">1 Java环境搭建</h1>
+<h2 id="11-jdk下载">1.1 JDK下载</h2>
+<p>www.oracle.com</p>
+<p>安装后的路径：</p>
+<figure data-type="image" tabindex="1"><img src="Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.assets/1661866604481.png" alt="1661866604481" loading="lazy"></figure>
+<h2 id="12-设置环境变量">1.2 设置环境变量</h2>
+<p>当我们执行一个命令的时候，搜索顺序就是当前路径和path环境变量下面的路径（依次去找）</p>
+<figure data-type="image" tabindex="2"><img src="Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.assets/1661866702563.png" alt="1661866702563" loading="lazy"></figure>
+<p>1.2.1 path路径的设置</p>
+<p><strong>创建一个JAVA_HOME的环境变量</strong>：C:\Program Files\Java\jdk-11.0.16.1</p>
+<figure data-type="image" tabindex="3"><img src="Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.assets/1661866661564.png" alt="1661866661564" loading="lazy"></figure>
+<p><strong>设置环境变量path</strong></p>
+<figure data-type="image" tabindex="4"><img src="Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.assets/1661866756770.png" alt="1661866756770" loading="lazy"></figure>
+<p><strong>常见的DOS命令：</strong></p>
+<table>
+<thead>
+<tr>
+<th>dir</th>
+<th>显示当前目录下面的内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C:/D:</td>
+<td>切换硬盘分区</td>
+</tr>
+<tr>
+<td>cd\</td>
+<td>进入当前分区的根目录</td>
+</tr>
+<tr>
+<td>cd..</td>
+<td>进入当前目录的上一层目录</td>
+</tr>
+<tr>
+<td>cd .</td>
+<td>当前路径</td>
+</tr>
+<tr>
+<td>cd  dell</td>
+<td>进入当前目录的子目录dell下面</td>
+</tr>
+<tr>
+<td></td>
+<td>相对路径和绝对路径的区别</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="2-第一个java程序">2 第一个Java程序</h1>
+<p><strong>第一步：编写java源程序</strong></p>
+<pre><code>//第一个Java程序，位置D:\code\javacode\first.java
+class A{
+}
+class B{
+}
+class C{
+}
+</code></pre>
+<p><strong>第二步：编译源程序(Javac)：</strong></p>
+<pre><code>javac 源文件的文件名.java（扩展名必须为.java)
+</code></pre>
+<p>编译生成字节码文件</p>
+<figure data-type="image" tabindex="5"><img src="Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.assets/1661863612975.png" alt="1661863612975" loading="lazy"></figure>
+<p><strong>第三步：运行字节码文件(java)</strong></p>
+<pre><code>java 字节码文件名（不包含扩展名）
+
+D:\code\javacode&gt;java A
+错误: 在类 A 中找不到 main 方法, 请将 main 方法定义为:
+   public static void main(String[] args)
+否则 JavaFX 应用程序类必须扩展javafx.application.Application
+</code></pre>
+<p>当类A加一个修饰符public，此时编译无法通过。</p>
+<pre><code>D:\code\javacode&gt;javac first.java
+first.java:2: 错误: 类 A 是公共的, 应在名为 A.java 的文件中声明
+public class A{
+       ^
+1 个错误
+</code></pre>
+<p><strong>总结一下：</strong></p>
+<ol>
+<li>一个源文件中可以有很多类。</li>
+<li>编译源文件，生成字节码文件，有多少类就生成多少字节码文件。</li>
+<li>一个源文件中只能有一个public类。</li>
+<li>有public类的源文件的文件名必须与public类名一致。</li>
+<li>main方法的修饰符 public static void，String</li>
+</ol>
+<p>A. public static int main(String[]args)    错</p>
+<p>B. public static void Main(String[]args)  错</p>
+<p>C. public static void main(string[]args)  错</p>
+<p>D. public static void main(String args)  错</p>
+<p>E. public static void main(String [] a)   对</p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="http://localhost:4000/post/javava-/">
+                <h3 class="post-title">
+                  JAVAVA———
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+      </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="http://localhost:4000/images/avatar.png?v=1664756561828" class="no-responsive avatar">
+    <div class="text-muted">我们都在不知不觉中品尝着人生百态</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="http://localhost:4000/post/ji-suan-ji-zu-cheng/">计算机组成</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:4000/post/lao-shi-de-bi-ji/">老师的笔记</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:4000/post/javava-/">JAVAVA———</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:4000/post/da-er-di-yi-ke/">大二第一课</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:4000/post/about/">关于</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://localhost:4000/post/hello-gridea/">Hello Gridea</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="http://localhost:4000/tag/ZbarSDPpt/" class="badge secondary">
+          大二课程
+        </a>
+      
+        <a href="http://localhost:4000/tag/G3WAlMDtl/" class="badge secondary">
+          Gridea
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">找到我</a> | <a class="rss" href="http://localhost:4000/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
+  </body>
+</html>
