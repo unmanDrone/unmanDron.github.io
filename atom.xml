@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://localhost:4000</id>
+    <title>yoky</title>
+    <updated>2022-10-03T00:22:45.874Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <subtitle>我们都在不知不觉中品尝着人生百态</subtitle>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
+    <rights>All rights reserved 2022, yoky</rights>
+    <entry>
+        <title type="html"><![CDATA[计算机组成]]></title>
+        <id>http://localhost:4000/post/ji-suan-ji-zu-cheng/</id>
+        <link href="http://localhost:4000/post/ji-suan-ji-zu-cheng/">
+        </link>
+        <updated>2022-10-02T13:12:47.000Z</updated>
+        <content type="html"><![CDATA[<p><em>机组：平时：40%</em></p>
+<p><em>课前</em><br>
+<em>课后作业：20%</em><br>
+<em>课中测验</em></p>
+<p><em>考试：60%</em></p>
+<h4 id="第一代电子管计算机eniac">第一代（电子管）计算机:ENIAC；</h4>
+<p>(1)存储容量小，存20个字长为10位;<br>
+(2)线路连接的方法编排程序</p>
+<h5 id="1945存储程序控制计算机构想的提出冯诺依曼提出二进制表达方式存储程序">1945，存储程序控制计算机构想的提出，冯诺依曼，提出二进制表达方式存储程序：</h5>
+<p>将事先编好的程序和原始数据送入主存中，然后启动执行。计算机在不需操作人员干预下，自动完成逐条取出指令和执行指令的任务。<br>
+“事先编制程序，存储程序，自动连续地运行程序”</p>
+<h5 id="冯诺依曼结构">冯诺依曼结构：</h5>
+<p>(1) 计算机由运算器、控制器、存储器、输入设备和输出设备五部分组成<br>
+(2) 采用存储程序的方式，程序和数据放在同一存储器中；<br>
+(3) 数据和指令以同一形式二进制码表示；<br>
+(4) 指令由操作码和地址码组成；<br>
+(5) 指令在存储器中按执行顺序存放；<br>
+(6) 机器以运算器为中心，数据传送都经过运算器<br>
+现在计算机以<strong>主存储器</strong>为中心</p>
+<h4 id="超大规模集成电路时代">超大规模集成电路时代：</h4>
+<p>特点：共享存储器，分布式存储器及大规模并行处理系统</p>
+<ol>
+<li>计算机系统包括（软件）和（硬件）<br>
+*. 硬件系统：运算器、控制器、存储器、输入设备和输出设备；<br>
+*. 软件系统：系统软件、应用软件；</li>
+<li>运算器的核心：ALU 算术单元，<br>
+控制器的核心：EU 控制单元</li>
+</ol>
+<p><a href="https://gitmind.cn/app/doc/1dzmbifcir0cn8vrljk6vjlqai1usyif">思维导图</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[老师的笔记]]></title>
+        <id>http://localhost:4000/post/lao-shi-de-bi-ji/</id>
+        <link href="http://localhost:4000/post/lao-shi-de-bi-ji/">
+        </link>
+        <updated>2022-09-01T16:00:35.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1-java环境搭建">1 Java环境搭建</h1>
+<h2 id="11-jdk下载">1.1 JDK下载</h2>
+<p>www.oracle.com</p>
+<p>安装后的路径：</p>
+<figure data-type="image" tabindex="1"><img src="Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.assets/1661866604481.png" alt="1661866604481" loading="lazy"></figure>
+<h2 id="12-设置环境变量">1.2 设置环境变量</h2>
+<p>当我们执行一个命令的时候，搜索顺序就是当前路径和path环境变量下面的路径（依次去找）</p>
+<figure data-type="image" tabindex="2"><img src="Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.assets/1661866702563.png" alt="1661866702563" loading="lazy"></figure>
+<p>1.2.1 path路径的设置</p>
+<p><strong>创建一个JAVA_HOME的环境变量</strong>：C:\Program Files\Java\jdk-11.0.16.1</p>
+<figure data-type="image" tabindex="3"><img src="Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.assets/1661866661564.png" alt="1661866661564" loading="lazy"></figure>
+<p><strong>设置环境变量path</strong></p>
+<figure data-type="image" tabindex="4"><img src="Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.assets/1661866756770.png" alt="1661866756770" loading="lazy"></figure>
+<p><strong>常见的DOS命令：</strong></p>
+<table>
+<thead>
+<tr>
+<th>dir</th>
+<th>显示当前目录下面的内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C:/D:</td>
+<td>切换硬盘分区</td>
+</tr>
+<tr>
+<td>cd\</td>
+<td>进入当前分区的根目录</td>
+</tr>
+<tr>
+<td>cd..</td>
+<td>进入当前目录的上一层目录</td>
+</tr>
+<tr>
+<td>cd .</td>
+<td>当前路径</td>
+</tr>
+<tr>
+<td>cd  dell</td>
+<td>进入当前目录的子目录dell下面</td>
+</tr>
+<tr>
+<td></td>
+<td>相对路径和绝对路径的区别</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="2-第一个java程序">2 第一个Java程序</h1>
+<p><strong>第一步：编写java源程序</strong></p>
+<pre><code>//第一个Java程序，位置D:\code\javacode\first.java
+class A{
+}
+class B{
+}
+class C{
+}
+</code></pre>
+<p><strong>第二步：编译源程序(Javac)：</strong></p>
+<pre><code>javac 源文件的文件名.java（扩展名必须为.java)
+</code></pre>
+<p>编译生成字节码文件</p>
+<figure data-type="image" tabindex="5"><img src="Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.assets/1661863612975.png" alt="1661863612975" loading="lazy"></figure>
+<p><strong>第三步：运行字节码文件(java)</strong></p>
+<pre><code>java 字节码文件名（不包含扩展名）
+
+D:\code\javacode&gt;java A
+错误: 在类 A 中找不到 main 方法, 请将 main 方法定义为:
+   public static void main(String[] args)
+否则 JavaFX 应用程序类必须扩展javafx.application.Application
+</code></pre>
+<p>当类A加一个修饰符public，此时编译无法通过。</p>
+<pre><code>D:\code\javacode&gt;javac first.java
+first.java:2: 错误: 类 A 是公共的, 应在名为 A.java 的文件中声明
+public class A{
+       ^
+1 个错误
+</code></pre>
+<p><strong>总结一下：</strong></p>
+<ol>
+<li>一个源文件中可以有很多类。</li>
+<li>编译源文件，生成字节码文件，有多少类就生成多少字节码文件。</li>
+<li>一个源文件中只能有一个public类。</li>
+<li>有public类的源文件的文件名必须与public类名一致。</li>
+<li>main方法的修饰符 public static void，String</li>
+</ol>
+<p>A. public static int main(String[]args)    错</p>
+<p>B. public static void Main(String[]args)  错</p>
+<p>C. public static void main(string[]args)  错</p>
+<p>D. public static void main(String args)  错</p>
+<p>E. public static void main(String [] a)   对</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JAVAVA———]]></title>
+        <id>http://localhost:4000/post/javava-/</id>
+        <link href="http://localhost:4000/post/javava-/">
+        </link>
+        <updated>2022-09-01T14:37:20.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="入门">入门</h2>
+<h3 id="java的下载">Java的下载</h3>
+<ol>
+<li><a href="https://www.oracle.com/java/">官网下载</a>，注册账号（建议下载SE版本，兼容性高）；</li>
+<li>改变系统环境变量，建立JavaHome变量，并在Path变量（系统在当前路径和path路径下查找运行程序）下创建bin目录下的变量，改为相对路径。如下图：<br>
+<img src="http://localhost:4000/post-images/1662044738655.png" alt="" loading="lazy"><br>
+改变环境变量是为了让Java无论在哪个路径下都能运行，相对路径是为了让后期修改变得方便；</li>
+<li>通过win+R打开命令行窗口，javac 文件.java 进行编译，java 文件 进行运行，如下图：<br>
+<img src="http://localhost:4000/post-images/1662046640085.png" alt="" loading="lazy"><br>
+需要注意的是，java指令运行的是class文件；</li>
+<li>可以直接用记事本等文档创建文件改成Java文件编译运行。</li>
+</ol>
+<h3 id="ide的下载">IDE的下载</h3>
+<p>直接从<a href="">官网下载</a>即可<br>
+需要注意的是，IDE会自动import包。</p>
+<h3 id="关键词新增">关键词新增</h3>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大二第一课]]></title>
+        <id>http://localhost:4000/post/da-er-di-yi-ke/</id>
+        <link href="http://localhost:4000/post/da-er-di-yi-ke/">
+        </link>
+        <updated>2022-09-01T14:35:08.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="202291">2022.9.1</h3>
+<p>任何软件在进行更新时一定要记住提前了解是否会覆盖旧文件，一定要记得做好备份。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>http://localhost:4000/post/hello-gridea/</id>
+        <link href="http://localhost:4000/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
